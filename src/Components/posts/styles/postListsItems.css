@@ -1,0 +1,141 @@
+.postListsItem__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: relative;
+  width: 636px;
+  height: 614px;
+  background: #06102b;
+  border-radius: 20px;
+  margin: 24px 0;
+  padding: 12px 24px;
+}
+
+.top__section-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top__section-left {
+  display: flex;
+  align-items: center;
+}
+
+.name-wrapper {
+  margin-left: 15px;
+}
+
+.name-wrapper p {
+  margin-top: 5px;
+  opacity: 0.7;
+}
+
+.menu {
+  background-color: inherit;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.content__section-container {
+  margin: 20px 0;
+}
+
+.bottom__section-container,
+.bottom__section-left-container,
+.bottom__section-right-container {
+  display: flex;
+  align-items: center;
+}
+
+.bottom__section-container {
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.post__like-img-box {
+  width: 50px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  font-size: 1.25rem;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  line-height: 1;
+  user-select: none;
+  border-radius: 50%;
+  justify-content: center;
+}
+
+img {
+  object-fit: cover;
+}
+
+.post__like-img-box img {
+  width: 100%;
+}
+
+.gallery__section-container {
+  width: 100%;
+}
+
+.post__options-section-container {
+  position: absolute;
+  bottom: 70px;
+  right: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.options-button {
+  background: #4b4efc;
+  color: #fff;
+  width: 48px;
+  height: 48px;
+  margin: 0 5px;
+  border-radius: 100px;
+  border: none;
+  outline: none;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.options-button svg {
+  font-size: 20px;
+}
+
+.like-info {
+  margin-left: 10px;
+}
+
+.like-info h4 {
+  font-size: 14px;
+}
+
+.like-info p {
+  font-size: 12px;
+  opacity: 0.7;
+  margin-top: 5px;
+}
+
+.bottom__section-right-container div {
+  display: flex;
+  align-items: center;
+  margin: 0 2px;
+  font-size: 18px;
+}
+
+.bottom__section-right-container div span {
+  margin: 0 5px;
+  color: inherit;
+}

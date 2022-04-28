@@ -1,0 +1,15 @@
+.postLists__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: static;
+  width: 636px;
+  height: 614px;
+  left: 0px;
+  top: 285px;
+  background: #06102b;
+  border-radius: 20px;
+  margin: 24px 0;
+  padding: 12px 24px;
+}
